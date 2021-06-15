@@ -1,0 +1,43 @@
+
+
+{%extends 'base.html' %}
+
+{%block head%}
+
+<style>
+    .list-group-item{
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0,0,0,.08), 0 0 6px rgba(0,0,0,.05);
+    transition: .3s transform cubic-bezier(.155,1.105,.295,1.12),.3s box-shadow,.3s -webkit-transform cubic-bezier(.155,1.105,.295,1.12);
+    padding: 14px 80px 18px 36px;
+    cursor: pointer;
+}
+
+.list-group-item:hover{
+    transform: scale(1.05);
+    box-shadow: 0 10px 20px rgba(0,0,0,.12), 0 4px 8px rgba(0,0,0,.06);
+}
+
+</style>
+<br>
+<br>
+<br>
+<br>
+<div class = "container">
+    <div class="card cd" style="width: 100%;">
+        <div class="card-header">
+        <center><h2>Users List</h2></center>
+        </div>
+        <ul class="list-group list-group-flush">
+
+        {%for i in  range(d|length)%}
+        <center><li class="list-group-item"> <a href='/Groot/{{d[i]["name"]}}' style="text-decoration: none; color:black">{{d[i]["Name"]}}</a></li></center>
+        {%endfor%}
+
+        </ul>
+    </div>
+</div>
+
+{%endblock%}
+

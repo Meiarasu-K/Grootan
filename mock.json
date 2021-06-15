@@ -1,0 +1,52 @@
+[
+ {
+   "id": 1,
+   "Name": "Meiarasu",
+   "Age": 20,
+   "DOB": "17/11/2000",
+   "firstname": "Meiarasu",
+   "lastname": "K",
+   "address1": "Tiruppur",
+   "phone": 8300070410
+ },
+ {
+   "id": 2,
+   "Name": "Gautham",
+   "Age": 21,
+   "DOB": "17/11/2000",
+   "firstname": "Gautham",
+   "lastname": "K",
+   "address1": "Erode",
+   "phone": 9788722412
+ },
+ {
+   "id": 3,
+   "Name": "Naveen",
+   "Age": 19,
+   "DOB": "23/3/2001",
+   "firstname": "Naveen",
+   "lastname": "N",
+   "address1": "Coimbatore",
+   "phone": 7373453310
+ },
+ {
+   "id": 4,
+   "Name": "Mridhula",
+   "Age": 18,
+   "DOB": "16/8/2001",
+   "firstname": "Mridhula",
+   "lastname": "T",
+   "address1": "Namakkal",
+   "phone": 6385482119
+ },
+ {
+   "id": 5,
+   "Name": "Ratchna",
+   "Age": 20,
+   "DOB": "21/12/2000",
+   "firstname": "Ratchna",
+   "lastname": "R",
+   "address1": "Kanchipuram",
+   "phone": 9784325510
+ }
+]
